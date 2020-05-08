@@ -1,0 +1,328 @@
+.main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+@media only screen and (max-width:600px) {
+    .imgnav {
+        margin-right: 50px;
+    }
+    .acti {
+        margin-right: 50px;
+    }
+}
+
+li {
+    display: inline-block;
+}
+
+.fb-logo {
+    width: 20px;
+    padding-bottom: 20px;
+    position: relative;
+    top: 0px;
+    bottom: 20px;
+    left: -10px;
+    right: 0px;
+}
+
+.tw-logo {
+    width: 20px;
+    padding-bottom: 20px;
+    position: relative;
+    top: 1px;
+    bottom: 20px;
+    left: 10px;
+    right: 0px;
+}
+
+.insta-logo {
+    width: 17px;
+    padding-bottom: 20px;
+    position: relative;
+    top: 1px;
+    bottom: 20px;
+    left: 26px;
+    right: 0px;
+}
+
+.yt-logo {
+    width: 15px;
+    padding-bottom: 20px;
+    position: relative;
+    top: 0px;
+    bottom: 20px;
+    left: 44px;
+    right: 0px;
+}
+
+.wa-logo {
+    width: 18px;
+    padding-bottom: 20px;
+    position: relative;
+    top: 1px;
+    bottom: 20px;
+    left: 60px;
+    right: 0px;
+}
+
+***************************************************Navbar1************************************************* .navbar {
+    overflow: hidden;
+    background-color: #333;
+}
+
+.navbar a {
+    float: left;
+    font-size: 14px;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: black;
+}
+
+.dropdown {
+    float: left;
+}
+
+.dropdown .dropbtn {
+    font-size: 14px;
+    border: none;
+    outline: none;
+    color: black;
+    font-weight: 500;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: #316DC3;
+    color: white;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    margin-left: 20px;
+}
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    font-weight: 500;
+    font-size: 12px;
+}
+
+.dropdown-content a:hover {
+    background-color: #316DC3;
+    color: white;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.acti {
+    background-color: #316DC3;
+    color: white;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.arrow {
+    border: solid black;
+    border-width: 0 1px 1px 0;
+    display: inline-block;
+    padding: 3px;
+    margin-left: 5px;
+    margin-bottom: 2px;
+}
+
+.down {
+    transform: rotate(45deg);
+}
+
+.right {
+    transform: rotate(-45deg);
+}
+
+***************************************************Navbar2************************************************* .dropdown2 {
+    float: right;
+}
+
+.dropdown2 .dropbtn2 {
+    border: none;
+    outline: none;
+    color: black;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+.dropdown2-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    margin-left: 17.5px;
+}
+
+.dropdown2-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    font-weight: 500;
+    font-size: 12px;
+}
+
+.dropdown2-content a:hover {
+    background-color: #316DC3;
+    color: white;
+}
+
+.dropdown2:hover .dropdown2-content {
+    display: inline;
+}
+
+.dropbtn2:hover {
+    background-color: #316DC3;
+    color: white;
+}
+
+.dropdown2:hover .a {
+    display: inline;
+}
+
+img {
+    width: 1360px;
+}
+
+@media only screen and (max-width: 600px) {
+    img {
+        width: 420px;
+        margin-left: 10px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    img {
+        width: 200px;
+        margin-left: 40px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    marquee {
+        width: 400px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    marquee {
+        width: 200px;
+    }
+}
+
+.countdv {
+    width: 1347px;
+    height: 280px;
+    margin-left: 1px;
+    background-color: rgb(67, 67, 255);
+    justify-content: space-around;
+}
+
+@media only screen and (max-width:600px) {
+    .countdv {
+        width: 450.5px;
+        height: 1050px;
+        margin-left: 15px;
+    }
+}
+
+@media only screen and (max-width:400px) {
+    .countdv {
+        width: 250.5px;
+        height: 525px;
+        margin-left: 10px;
+    }
+}
+
+.dv4 {
+    justify-content: space-around;
+    margin-left: 71px;
+    margin-right: 71px;
+    background-color: whitesmoke;
+}
+
+.dv5 {
+    justify-content: space-around;
+    margin-left: 71px;
+    margin-right: 71px;
+    background-color: whitesmoke;
+    height: 240px;
+}
+
+@media only screen and (max-width:600px) {
+    .dv4 {
+        width: 450.5px;
+        height: 800px;
+        margin-left: 15px;
+    }
+    .dv5 {
+        width: 450.5px;
+        height: 700px;
+        margin-left: 15px;
+    }
+}
+
+@media only screen and (max-width:600px) {
+    .eventmdv {
+        height: 800px;
+    }
+}
+
+.main3 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.footermdv {
+    height: 400px;
+    background-color: rgba(0, 0, 20, 0.822);
+}
+
+@media only screen and (max-width:600px) {
+    .footermdv {
+        height: 700px;
+    }
+}
+
+.crdv {
+    background-color: #316DC3;
+    color: white;
+    font-size: 12px;
+    height: 50px;
+    padding-left: 110px;
+    padding-top: 17px;
+    font-weight: 600;
+}
